@@ -94,7 +94,7 @@ const Menu = () => {
           />
         </div>
         <div>
-          <button className="px-2 py-2 bg-yellow-400 text-sm rounded-lg text-white hover:bg-yellow-500 transition-all">
+          <button className="px-4 py-2 bg-yellow-400 text-sm rounded-lg text-white hover:bg-yellow-500 transition-all">
             Add New Menu
           </button>
         </div>

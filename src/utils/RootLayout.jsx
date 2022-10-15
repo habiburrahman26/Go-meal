@@ -6,7 +6,7 @@ const RootLayout = () => {
   return (
     <div className='flex w-full font-poppins'>
       <Sidebar/>
-      <main className='w-full py-10 px-8 bg-[#F5F5F5]'>
+      <main className='w-full py-6 px-8 bg-[#F5F5F5]'>
         <Outlet />
       </main>
     </div>
