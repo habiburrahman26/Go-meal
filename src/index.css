@@ -14,6 +14,6 @@
   }
 
   .category-container {
-    @apply w-36 h-24  bg-white flex flex-col gap-3 justify-center items-center p-2 rounded-lg ;
+    @apply w-[138px] h-28 bg-white flex flex-col gap-3 justify-center items-center p-2 rounded-lg ;
   }
 }

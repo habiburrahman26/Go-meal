@@ -106,7 +106,7 @@ const Sidebar = () => {
         </ul>
       </nav>
 
-      <div className="relative overflow-hidden mt-20 bg-gradient-to-r from-yellow-500 to-yellow-300 w-56 rounded-lg p-6 border-2 border-yellow-300">
+      <div className="relative overflow-hidden mt-28 bg-gradient-to-r from-yellow-500 to-yellow-300 w-56 rounded-lg p-6 border-2 border-yellow-300">
         <h3 className="text-white font-medium">
           Upgrade your Account to get more benefits
         </h3>

@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <h2 className="text-xl font-semibold">Menu</h2>
+        <h2 className="text-2xl font-semibold">Menu</h2>
         <div className="flex gap-4 justify-between items-center">
           <div className="relative cursor-pointer">
             <svg

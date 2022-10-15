@@ -5,7 +5,7 @@ const Popular = () => {
   return (
     <div>
       <div className="flex justify-between">
-        <h3 className="font-semibold text-gray-600">Popular This Week</h3>
+        <h3 className="font-semibold text-gray-600 text-lg">Popular This Week</h3>
         <Link
           to=""
           className="text-yellow-400 text-sm hover:border-b border-yellow-300"
@@ -13,7 +13,7 @@ const Popular = () => {
           View all &gt;
         </Link>
       </div>
-      <div className='grid lg:grid-cols-4 gap-3 mt-4 mb-3'>
+      <div className='grid lg:grid-cols-4 gap-3 mt-5 mb-3'>
         <div className=" p-3 bg-white rounded-lg border border-transparent hover:border-yellow-400 transition-all">
           <div className="flex gap-4 mb-2">
             <div className="w-16 h-16 bg-gray-400 rounded-lg"></div>
