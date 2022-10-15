@@ -110,7 +110,7 @@ const Sidebar = () => {
         <h3 className="text-white font-medium">
           Upgrade your Account to get more benefits
         </h3>
-        <button className="mt-4 bg-white px-2 py-1 rounded text-sm">
+        <button className="mt-4 bg-white px-3 py-2 rounded text-xs text-gray-600 font-medium">
           Upgrade
         </button>
         <svg

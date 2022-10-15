@@ -6,7 +6,7 @@ const Menu = () => {
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold">Menu</h2>
         <div className="flex gap-4 justify-between items-center">
-          <div className="relative">
+          <div className="relative cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -30,7 +30,7 @@ const Menu = () => {
             </svg>
             <div className="notification"></div>
           </div>
-          <div className='relative'>
+          <div className='relative cursor-pointer'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -44,9 +44,9 @@ const Menu = () => {
                 dataName="Layer 2"
               />
             </svg>
-            <div className="notification"></div>
+            <div className="notification  hover:cursor-pointer"></div>
           </div>
-          <div>
+          <div className='cursor-pointer'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

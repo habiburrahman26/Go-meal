@@ -1,6 +1,7 @@
 import BestSeller from './BestSeller';
 import Category from './Category';
 import Menu from './Menu';
+import Popular from './Popular';
 import Promo from './Promo';
 
 const Dashboard = () => {
@@ -8,6 +9,7 @@ const Dashboard = () => {
     <section className=''>
       <Menu />
       <Category />
+      <Popular/>
       <BestSeller />
       <Promo />
     </section>
