@@ -5,7 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Dashboard from './pages/dashboard/Dashboard';
-import FoodOrder from './pages/FoodOrder';
+import FoodOrder from './pages/foodOrder/FoodOrder';
 import RootLayout from './utils/RootLayout';
 
 const router = createBrowserRouter(

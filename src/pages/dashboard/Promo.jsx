@@ -5,7 +5,9 @@ const Promo = () => {
   return (
     <div>
       <div className="flex justify-between mb-5">
-        <h3 className="font-semibold text-gray-600 md:text-base lg:text-lg">Promo</h3>
+        <h3 className="font-semibold text-gray-600 md:text-base lg:text-lg">
+          Promo
+        </h3>
         <Link
           to=""
           className="text-yellow-400 text-sm hover:border-b border-yellow-300"
@@ -16,7 +18,7 @@ const Promo = () => {
 
       {/* grid start */}
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
-      <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 py-6 relative">
+        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 py-6 relative">
           <div className="flex flex-col gap-1 self-end md:pt-2">
             <h3 className="text-gray-600 lg:text-base">Cheese Burger</h3>
             <div className="flex gap-1 items-center">
