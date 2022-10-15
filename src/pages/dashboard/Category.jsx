@@ -5,7 +5,7 @@ const Category = () => {
   return (
     <div>
       <div className="flex justify-between">
-        <h3 className="font-semibold text-lg text-gray-600">Category</h3>
+        <h3 className="font-semibold md:text-base lg:text-lg text-gray-600">Category</h3>
         <Link
           to=""
           className="text-yellow-400 text-sm hover:border-b border-yellow-300"
@@ -13,7 +13,7 @@ const Category = () => {
           View all &gt;
         </Link>
       </div>
-      <div className='grid gap-3 grid-cols-8 mt-5 mb-3'>
+      <div className='grid gap-3 md:grid-cols-4 lg:grid-cols-8 mt-5 mb-3'>
         <div className='category-container'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
