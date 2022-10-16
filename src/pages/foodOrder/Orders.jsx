@@ -1,6 +1,7 @@
-import React from 'react';
+
 
 const Orders = () => {
+  
   return (
     <div className="basis-full py-6 lg:pl-6 pl-3 px-3 lg:px-2">
       <div className="flex justify-between items-center">
@@ -31,12 +32,10 @@ const Orders = () => {
 
       {/* orders start */}
 
-      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-6'>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-6">
         <div className="bg-white p-6 rounded-lg border border-transparent hover:border-[#a6c44a] transition-all">
           <div className="text-center pb-4 border-b">
-            <h3 className="font-bold text-base text-gray-600 mb-2">
-              Order #1
-            </h3>
+            <h3 className="font-bold text-base text-gray-600 mb-2">Order #1</h3>
             <p className="text-sm text-gray-400">Nov 11, 2021 , 18:38 PM</p>
           </div>
           <div className="py-4 border-b">
@@ -175,16 +174,14 @@ const Orders = () => {
           </div>
           <div className="text-center pt-6">
             <button className="border-2 border-[#f8b602]  py-1 bg-[#FEF8E5] rounded-xl text-[#f8b602] w-full">
-            Delivering to you
+              Delivering to you
             </button>
           </div>
         </div>
 
         <div className="bg-white p-6 rounded-lg border border-transparent hover:border-[#2d9cdb] transition-all">
           <div className="text-center pb-4 border-b">
-            <h3 className="font-bold text-base text-gray-600 mb-2">
-              Order #3
-            </h3>
+            <h3 className="font-bold text-base text-gray-600 mb-2">Order #3</h3>
             <p className="text-sm text-gray-400">Nov 11, 2021 , 18:38 PM</p>
           </div>
           <div className="py-4 border-b">
@@ -256,9 +253,7 @@ const Orders = () => {
 
         <div className="bg-white p-6 rounded-lg border border-transparent hover:border-[#a6c44a] transition-all">
           <div className="text-center pb-4 border-b">
-            <h3 className="font-bold text-base text-gray-600 mb-2">
-              Order #4
-            </h3>
+            <h3 className="font-bold text-base text-gray-600 mb-2">Order #4</h3>
             <p className="text-sm text-gray-400">Nov 11, 2021 , 18:38 PM</p>
           </div>
           <div className="py-4 border-b">
@@ -330,9 +325,7 @@ const Orders = () => {
 
         <div className="bg-white p-6 rounded-lg border border-transparent hover:border-[#a6c44a] transition-all">
           <div className="text-center pb-4 border-b">
-            <h3 className="font-bold text-base text-gray-600 mb-2">
-              Order #5
-            </h3>
+            <h3 className="font-bold text-base text-gray-600 mb-2">Order #5</h3>
             <p className="text-sm text-gray-400">Nov 11, 2021 , 18:38 PM</p>
           </div>
           <div className="py-4 border-b">
@@ -404,9 +397,7 @@ const Orders = () => {
 
         <div className="bg-white p-6 rounded-lg border border-transparent hover:border-[#a6c44a] transition-all">
           <div className="text-center pb-4 border-b">
-            <h3 className="font-bold text-base text-gray-600 mb-2">
-              Order #6
-            </h3>
+            <h3 className="font-bold text-base text-gray-600 mb-2">Order #6</h3>
             <p className="text-sm text-gray-400">Nov 11, 2021 , 18:38 PM</p>
           </div>
           <div className="py-4 border-b">

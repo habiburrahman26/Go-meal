@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import ToggleContext from "../../store/ToggleSideBar";
 
 const OrderDetails = () => {
+  const ctx = useContext(ToggleContext);
+
+  const toggleSideBar = () => {
+    ctx.toggle();
+  };
+
   return (
-    <div className="bg-white basis-96 py-6 mx-2 lg:mx-0 px-3 md:px-6 -order-1 lg:order-2">
+    <div className="bg-white basis-96 py-6 mx-2 lg:mx-0 px-3 md:px-6 -order-1 lg:order-2 z-10">
       <div className="flex justify-between items-center">
         <div className="flex gap-4 justify-between items-center">
-          <div className="mr-16 cursor-pointer block md:hidden">
+          <div onClick={toggleSideBar} className="mr-16 cursor-pointer block md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -70,7 +77,7 @@ const OrderDetails = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#a098ae"
-              class="w-5 h-5"
+              className="w-5 h-5"
             >
               <path
                 strokeLinecap="round"

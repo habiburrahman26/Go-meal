@@ -1,15 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-const ToggleContext = React.createContext();
+const ToggleContext = React.createContext({
+  isShow: false,
+  toggle: () => {},
+});
 
-export default ToggleSideBar = () => {
-  const [isShow, setIsShow] = useState(false);
+export default ToggleContext;
 
-  const toggle = () => {
-    setIsShow((prevState) => !prevState);
-  };
-
-  return (
-    <ToggleContext.Provider value={{ isShow, toggle }}></ToggleContext.Provider>
-  );
-};

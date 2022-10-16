@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useContext } from 'react';
+import ToggleContext from '../../store/ToggleSideBar';
 
 const Menu = () => {
+  const ctx = useContext(ToggleContext);
+
+  const toggleSideBar = () => {
+    ctx.toggle();
+  };
+
   return (
     <div>
       <div className="flex justify-between items-center">
-        <div>
+        <div className=' ' onClick={toggleSideBar}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-7 h-7 cursor-pointer block md:hidden"
+            className="cursor-pointer block md:hidden"
           >
             <path
               strokeLinecap="round"
@@ -69,7 +76,7 @@ const Menu = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#a098ae"
-              class="w-5 h-5"
+              className="w-5 h-5"
             >
               <path
                 strokeLinecap="round"
