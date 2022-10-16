@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 
 const OrderDetails = () => {
   return (
-    <div className="bg-white basis-96 py-6 px-6">
+    <div className="bg-white basis-96 py-6 px-6 -order-1 md:order-2">
       <div className="flex justify-between items-center">
         <div className="flex gap-4 justify-between items-center">
           <div className="relative cursor-pointer">

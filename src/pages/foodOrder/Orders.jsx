@@ -2,7 +2,7 @@ import React from 'react';
 
 const Orders = () => {
   return (
-    <div className="basis-full py-6 pl-6">
+    <div className="basis-full py-6 pl-6 px-2">
       <div className="flex justify-between items-center">
         <h2 className="md:text-xl lg:text-2xl font-semibold">Food Order</h2>
         <div className="md:w-72 lg:w-80 relative">
@@ -31,7 +31,7 @@ const Orders = () => {
 
       {/* orders start */}
 
-      <div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-4 mt-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-6'>
         <div className="bg-white p-6 rounded-lg border border-transparent hover:border-[#a6c44a] transition-all">
           <div className="text-center pb-4 border-b">
             <h3 className="font-bold text-base text-gray-600 mb-2">
