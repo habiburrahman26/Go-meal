@@ -4,9 +4,25 @@ import "leaflet/dist/leaflet.css";
 
 const OrderDetails = () => {
   return (
-    <div className="bg-white basis-96 py-6 px-6 -order-1 md:order-2">
+    <div className="bg-white basis-96 py-6 mx-2 lg:mx-0 px-3 md:px-6 -order-1 lg:order-2">
       <div className="flex justify-between items-center">
         <div className="flex gap-4 justify-between items-center">
+          <div className="mr-16 cursor-pointer block md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-7 h-7 "
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
           <div className="relative cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +90,9 @@ const OrderDetails = () => {
 
       {/* Order tracker start */}
       <div className="mb-5 mt-6">
-        <h3 className="text-gray-600 font-semibold lg:text-lg mb-2">Order Tracker</h3>
+        <h3 className="text-gray-600 font-semibold text-base lg:text-lg mb-2">
+          Order Tracker
+        </h3>
         <MapContainer
           center={[23.8103, 90.4125]}
           zoom={7}

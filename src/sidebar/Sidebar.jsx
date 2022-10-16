@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <header className="h-screen lg:w-[300px]  2xl:w-80 flex flex-col items-center pt-6">
+    <header className="hidden md:flex h-screen lg:w-[300px]  2xl:w-80 flex-col items-center pt-6">
       <h1 className="md:text-2xl lg:text-3xl font-bold mb-10">
         GoMeal<span className="text-yellow-400">.</span>
       </h1>
@@ -12,9 +12,7 @@ const Sidebar = () => {
             <NavLink
               to="/dashboard"
               className={({ isActive }) =>
-                isActive
-                  ? "nav-link-active"
-                  : "nav-link"
+                isActive ? "nav-link-active" : "nav-link"
               }
             >
               <svg

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Orders = () => {
   return (
-    <div className="basis-full py-6 pl-6 px-2">
+    <div className="basis-full py-6 lg:pl-6 pl-3 px-3 lg:px-2">
       <div className="flex justify-between items-center">
         <h2 className="md:text-xl lg:text-2xl font-semibold">Food Order</h2>
-        <div className="md:w-72 lg:w-80 relative">
+        <div className="w-52 md:w-72 lg:w-80 relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

@@ -18,7 +18,7 @@ const Promo = () => {
 
       {/* grid start */}
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
-        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 py-6 relative">
+        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 pt-10 pb-5 md:py-6 relative">
           <div className="flex flex-col gap-1 self-end md:pt-2">
             <h3 className="text-gray-600 lg:text-base">Cheese Burger</h3>
             <div className="flex gap-1 items-center">
@@ -45,11 +45,11 @@ const Promo = () => {
             </div>
           </div>
           <div className="lg:w-24 lg:h-24 xl:w-28 xl:h-28 bg-[#c4c4c4] rounded-lg"></div>
-          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
+          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute top-3 md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
             15% off
           </p>
         </div>
-        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 py-6 relative">
+        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 pt-10 pb-5 md:py-6 relative">
           <div className="flex flex-col gap-1 self-end md:pt-2">
             <h3 className="text-gray-600 lg:text-base">Cheese Burger</h3>
             <div className="flex gap-1 items-center">
@@ -76,11 +76,11 @@ const Promo = () => {
             </div>
           </div>
           <div className="lg:w-24 lg:h-24 xl:w-28 xl:h-28 bg-[#c4c4c4] rounded-lg"></div>
-          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
+          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute top-3 md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
             15% off
           </p>
         </div>
-        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 py-6 relative">
+        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 pt-10 pb-5  md:py-6 relative">
           <div className="flex flex-col gap-1 self-end md:pt-2">
             <h3 className="text-gray-600 lg:text-base">Cheese Burger</h3>
             <div className="flex gap-1 items-center">
@@ -107,12 +107,12 @@ const Promo = () => {
             </div>
           </div>
           <div className="lg:w-24 lg:h-24 xl:w-28 xl:h-28 bg-[#c4c4c4] rounded-lg"></div>
-          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
+          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute top-3 md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
             15% off
           </p>
         </div>
 
-        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 py-6 relative">
+        <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 pt-10 pb-5  md:py-6 relative">
           <div className="flex flex-col gap-1 self-end md:pt-2">
             <h3 className="text-gray-600 lg:text-base">Cheese Burger</h3>
             <div className="flex gap-1 items-center">
@@ -139,7 +139,7 @@ const Promo = () => {
             </div>
           </div>
           <div className="lg:w-24 lg:h-24 xl:w-28 xl:h-28 bg-[#c4c4c4] rounded-lg"></div>
-          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
+          <p className="px-4 lg:py-0 xl:py-1 bg-red-500 text-white absolute top-3 md:top-2 lg:top-2 xl:top-2 2xl:top-4 left-0 text-sm rounded-tr-lg rounded-br-lg">
             15% off
           </p>
         </div>

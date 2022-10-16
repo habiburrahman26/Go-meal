@@ -1,10 +1,26 @@
-import React from 'react';
+import React from "react";
 
 const Menu = () => {
   return (
-    <div >
+    <div>
       <div className="flex justify-between items-center">
-        <h2 className="md:text-xl lg:text-2xl font-semibold">Menu</h2>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="w-7 h-7 cursor-pointer block md:hidden"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+        <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">Menu</h2>
         <div className="flex gap-4 justify-between items-center">
           <div className="relative cursor-pointer">
             <svg
@@ -30,7 +46,7 @@ const Menu = () => {
             </svg>
             <div className="notification"></div>
           </div>
-          <div className='relative cursor-pointer'>
+          <div className="relative cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -46,7 +62,7 @@ const Menu = () => {
             </svg>
             <div className="notification  hover:cursor-pointer"></div>
           </div>
-          <div className='cursor-pointer'>
+          <div className="cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -70,8 +86,8 @@ const Menu = () => {
           <div className="w-10 h-10 bg-gray-400 rounded-lg ml-7"></div>
         </div>
       </div>
-      <div className="flex justify-between py-6">
-        <div className="md:w-72 lg:w-96 relative">
+      <div className="flex flex-row justify-between py-6">
+        <div className="w-48 md:w-72 lg:w-96 relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -89,12 +105,12 @@ const Menu = () => {
 
           <input
             type="text"
-            className="pl-10 w-full focus:outline-none py-2 rounded-md"
+            className="pl-10 w-full focus:outline-none py-[6px] md:py-2 rounded-md"
             placeholder="Search"
           />
         </div>
         <div>
-          <button className="px-4 py-2 bg-yellow-400 text-sm rounded-lg text-white hover:bg-yellow-500 transition-all">
+          <button className="px-2 md:px-4 py-2 bg-yellow-400 text-sm rounded-lg text-white hover:bg-yellow-500 transition-all">
             Add New Menu
           </button>
         </div>
