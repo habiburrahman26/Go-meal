@@ -13,7 +13,7 @@ const Category = () => {
           View all &gt;
         </Link>
       </div>
-      <div className='grid gap-3 grid-cols-2 md:grid-cols-4 lg:grid-cols-8 mt-5 mb-3'>
+      <div className='grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 mt-5 mb-3'>
         <div className='category-container'>
           <svg
             xmlns="http://www.w3.org/2000/svg"

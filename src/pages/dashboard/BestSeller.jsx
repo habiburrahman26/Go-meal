@@ -14,7 +14,7 @@ const BestSeller = () => {
         </Link>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3 mb-3">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3 mb-3">
       <div className="bg-white p-4 flex flex-col items-center">
           <div className="w-20 h-20 md:w-28 md:h-28 bg-[#c4c4c4] rounded-lg"></div>
           <div className="flex flex-col gap-2 text-center">

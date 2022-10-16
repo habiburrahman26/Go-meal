@@ -11,14 +11,17 @@ const Menu = () => {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <div className=' ' onClick={toggleSideBar}>
+        <div
+          onClick={toggleSideBar}
+          className="cursor-pointer block md:hidden"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="cursor-pointer block md:hidden"
+            className="w-7 h-7 "
           >
             <path
               strokeLinecap="round"
@@ -94,7 +97,7 @@ const Menu = () => {
         </div>
       </div>
       <div className="flex flex-row justify-between py-6">
-        <div className="w-48 md:w-72 lg:w-96 relative">
+        <div className="w-48 sm:w-72 lg:w-96 relative">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

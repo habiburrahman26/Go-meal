@@ -1,17 +1,22 @@
-import { useContext } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useContext, useEffect } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import ToggleContext from '../store/ToggleSideBar';
 
 const Sidebar = () => {
   const ctx = useContext(ToggleContext);
+  const navigate = useNavigate();
 
   const toggleSideBar = () => {
     ctx.toggle();
   };
 
+  useEffect(() => {
+    return navigate('/dashboard');
+  },[]);
+
   return (
     <>
-      <header className=" hidden md:flex h-screen lg:w-[300px]  2xl:w-80 flex-col items-center pt-6">
+      <header className=" hidden md:flex h-screen lg:w-[300px]  2xl:w-80 flex-col items-center pt-6 px-2">
         <h1 className="md:text-2xl lg:text-3xl font-bold mb-10">
           GoMeal<span className="text-yellow-400">.</span>
         </h1>
@@ -176,8 +181,9 @@ const Sidebar = () => {
         </div>
       </header>
 
+      {/* mobile & small-tab */}
       {ctx.isShow && (
-        <header className="absolute bg-white w-full flex h-screen lg:w-[300px]  2xl:w-80 flex-col z-50 items-center pt-6">
+        <header className="absolute bg-white w-full sm:w-2/4 flex h-screen lg:w-[300px]  2xl:w-80 flex-col z-50 items-center pt-6">
           <div
             className="-mt-5 w-full flex justify-end pr-4 pt-2"
             onClick={toggleSideBar}

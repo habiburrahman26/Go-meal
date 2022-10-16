@@ -17,7 +17,7 @@ const Promo = () => {
       </div>
 
       {/* grid start */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
         <div className="flex lg:gap-0  xl:gap-2 bg-white px-3 pt-10 pb-5 md:py-6 relative">
           <div className="flex flex-col gap-1 self-end md:pt-2">
             <h3 className="text-gray-600 lg:text-base">Cheese Burger</h3>

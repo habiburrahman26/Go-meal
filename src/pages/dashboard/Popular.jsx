@@ -13,7 +13,7 @@ const Popular = () => {
           View all &gt;
         </Link>
       </div>
-      <div className='grid md:grid-cols-2 xl:grid-cols-4 gap-3 mt-5 mb-3'>
+      <div className='grid sm:grid-cols-2 xl:grid-cols-4 gap-3 mt-5 mb-3'>
         <div className=" p-3 bg-white rounded-lg border border-transparent hover:border-yellow-400 transition-all">
           <div className="flex gap-4 mb-2">
             <div className="w-16 h-16 bg-gray-400 rounded-lg"></div>

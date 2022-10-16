@@ -6,7 +6,7 @@ import Promo from './Promo';
 
 const Dashboard = () => {
   return (
-    <section className="py-6 px-3 md:px-3 lg:px-6  2xl:px-8">
+    <section className="py-6 mx-2 lg:mx-1 px-3 lg:px-6  2xl:px-8">
       <Menu />
       <Category />
       <Popular />
