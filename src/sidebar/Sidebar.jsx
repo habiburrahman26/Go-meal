@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -9,7 +9,14 @@ const Sidebar = () => {
       <nav>
         <ul className="flex flex-col gap-3 items-center">
           <li className="group">
-            <Link to="/dashboard" className="nav-link">
+            <NavLink
+              to="/dashboard"
+              className={({ isActive }) =>
+                isActive
+                  ? "nav-link-active"
+                  : "nav-link"
+              }
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -20,15 +27,20 @@ const Sidebar = () => {
                   d="M8.333 30.833c0 2.864 6.48 4.167 12.5 4.167s12.5-1.303 12.5-4.167c0-2.273-3.935-3.3-6.77-3.743l1.937-1.923a10.833 10.833 0 1 0-15.32 0l1.93 1.93c-2.842.436-6.777 1.463-6.777 3.736Zm14.167-17.5a.833.833 0 0 1 1.333-.666 9.167 9.167 0 0 1 3.632 6.546 1.655 1.655 0 0 1-1.253 1.76l-2.045.512v1.848a.833.833 0 1 1-1.667 0v-10ZM15 15v-1.667a.833.833 0 1 1 1.667 0V15a1.642 1.642 0 0 0 .833 1.41v-3.077a.833.833 0 1 1 1.667 0v3.077A1.642 1.642 0 0 0 20 15v-1.667a.833.833 0 1 1 1.667 0V15a3.333 3.333 0 0 1-2.5 3.215v5.118a.833.833 0 1 1-1.667 0v-5.118A3.333 3.333 0 0 1 15 15Zm1.59 13.577 2.475 2.476a2.5 2.5 0 0 0 3.537 0l2.475-2.476c4.58.53 6.59 1.736 6.59 2.256 0 .747-3.685 2.5-10.834 2.5-7.148 0-10.833-1.753-10.833-2.5 0-.52 2.01-1.726 6.59-2.256Z"
                   fill="#a098ae"
                   fillRule="evenodd"
-                  data-name="Vector"
+                  dataname="Vector"
                   className="group-hover:fill-white transition-all"
                 />
               </svg>
               <span>Dashboard</span>
-            </Link>
+            </NavLink>
           </li>
           <li className="group">
-            <Link to="/menu" className="nav-link">
+            <NavLink
+              to="/menu"
+              className={({ isActive }) =>
+                isActive ? "nav-link-active" : "nav-link"
+              }
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -44,10 +56,15 @@ const Sidebar = () => {
                 />
               </svg>
               <span>Menu</span>
-            </Link>
+            </NavLink>
           </li>
           <li className="group">
-            <Link to="/food-order" className="nav-link">
+            <NavLink
+              to="/food-order"
+              className={({ isActive }) =>
+                isActive ? "nav-link-active" : "nav-link"
+              }
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -63,10 +80,15 @@ const Sidebar = () => {
                 />
               </svg>
               <span>Food Order</span>
-            </Link>
+            </NavLink>
           </li>
           <li className="group">
-            <Link to="/reviews" className="nav-link">
+            <NavLink
+              to="/reviews"
+              className={({ isActive }) =>
+                isActive ? "nav-link-active" : "nav-link"
+              }
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -82,10 +104,15 @@ const Sidebar = () => {
                 />
               </svg>
               <span>Reviews</span>
-            </Link>
+            </NavLink>
           </li>
           <li className="group">
-            <Link to="/settings" className="nav-link">
+            <NavLink
+              to="/settings"
+              className={({ isActive }) =>
+                isActive ? "nav-link-active" : "nav-link"
+              }
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -101,7 +128,7 @@ const Sidebar = () => {
                 />
               </svg>
               <span>Settings</span>
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
@@ -118,7 +145,7 @@ const Sidebar = () => {
           width="170"
           height="170"
           viewBox="197 916.502 170 170"
-          className='absolute top-20 -right-14'
+          className="absolute top-20 -right-14"
         >
           <path
             d="M0 84.9a85 85 0 1 1 0 .1z"
