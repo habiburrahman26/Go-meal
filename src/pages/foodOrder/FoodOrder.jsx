@@ -4,7 +4,7 @@ import Orders from './Orders';
 
 const FoodOrder = () => {
   return (
-    <div className='flex gap-4 w-full'>
+    <div className='flex gap-6 w-full'>
       <Orders />
       <OrderDetails />
     </div>

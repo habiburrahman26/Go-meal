@@ -38,7 +38,7 @@ const Promo = () => {
                   d="m8 2.5 2 5.95 6 .161-4.764 3.84 1.708 6.049L8 14.922 3.056 18.5l1.708-6.05L0 8.611l6-.16z"
                   fill="#f8b602"
                   fillRule="evenodd"
-                  dataName="Star 1"
+                  dataname="Star 1"
                 />
               </svg>
               <p className="text-xs text-gray-400">5.0 . 1k+ User Reviews</p>
@@ -69,7 +69,7 @@ const Promo = () => {
                   d="m8 2.5 2 5.95 6 .161-4.764 3.84 1.708 6.049L8 14.922 3.056 18.5l1.708-6.05L0 8.611l6-.16z"
                   fill="#f8b602"
                   fillRule="evenodd"
-                  dataName="Star 1"
+                  dataname="Star 1"
                 />
               </svg>
               <p className="text-xs text-gray-400">5.0 . 1k+ User Reviews</p>
@@ -100,7 +100,7 @@ const Promo = () => {
                   d="m8 2.5 2 5.95 6 .161-4.764 3.84 1.708 6.049L8 14.922 3.056 18.5l1.708-6.05L0 8.611l6-.16z"
                   fill="#f8b602"
                   fillRule="evenodd"
-                  dataName="Star 1"
+                  dataname="Star 1"
                 />
               </svg>
               <p className="text-xs text-gray-400">5.0 . 1k+ User Reviews</p>
@@ -132,7 +132,7 @@ const Promo = () => {
                   d="m8 2.5 2 5.95 6 .161-4.764 3.84 1.708 6.049L8 14.922 3.056 18.5l1.708-6.05L0 8.611l6-.16z"
                   fill="#f8b602"
                   fillRule="evenodd"
-                  dataName="Star 1"
+                  dataname="Star 1"
                 />
               </svg>
               <p className="text-xs text-gray-400">5.0 . 1k+ User Reviews</p>
