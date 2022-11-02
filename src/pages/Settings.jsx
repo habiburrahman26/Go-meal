@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
+import Tab from './foodOrder/tabs/Tab';
 
 const Settings = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleTabChange = (index) => {
     setActiveIndex(index);
-    console.log(index);
   };
 
   return (
@@ -29,6 +29,7 @@ const Settings = () => {
       >
         c
       </button>
+      <Tab activeIndex={activeIndex}/>
     </div>
   );
 };
